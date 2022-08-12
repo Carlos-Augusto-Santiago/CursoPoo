@@ -1,0 +1,2 @@
+class payments:
+    id = int
