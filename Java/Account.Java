@@ -1,7 +1,14 @@
 class Account {
-    private Integer id;
-    private String name;
-    private String document;
-    private String email;
-    private String password;
+    Integer id;
+    String name;
+    String document;
+    String email;
+    String password;
+
+    public Account (String name, String document, String email, String password) {
+        this.name = name;
+        this.document = document;
+        this.email = email;
+        this.password = password;
+    }
 }

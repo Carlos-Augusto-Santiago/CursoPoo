@@ -1,3 +1,3 @@
 class Payments {
-    private Integer id;
+    Integer id;
 }
